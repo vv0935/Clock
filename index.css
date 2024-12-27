@@ -1,0 +1,25 @@
+body{
+    background-image: url("https://icolorpalette.com/download/imagepost/dolomites-2242020_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.clock{
+    font-size: 6rem;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+}
+.clock-contain{
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    display: inline-block;
+    padding: 10px 0px;
+    color: aliceblue;
+}
